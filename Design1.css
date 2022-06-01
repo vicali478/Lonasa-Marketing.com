@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block h1 a{
+    text-align: left;
+    flex-direction: column;
+}
+.end h1{
+    margin-top: -1500px;
+    margin-left: 400px;
+    background-color: orange;
+    border: 3px;
+    border-radius: 5px;
+}
+.navbar{
+    width: 1500px;
+    height: 85px;
+    background-color: orange;
+    position: static;
+    margin-left: -10px;
+    margin-top: -27px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(235, 212, 83);
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 191, 0);
+    border: 2px solid rgb(228, 223, 213);
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+    background-color: aliceblue;
+}
+.srch:focus{
+    outline: none;
+    background-color: aliceblue;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: rgb(255, 255, 255);
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.mainh{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50% ), url(HOMEPIC.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.iconh{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.block{
+    width: 1100px;
+    height: 1720px;
+    margin-left: 360px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 5px;
+    padding-left: -30px;
+}
+.block.cn:hover{
+  margin-left: 100px;  
+}
+.logoh{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.contenth{
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+    color: white);
+    left: 70px;
+    position: fixed;
+}
+.contenth .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contenth h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.contenth .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-left: 70px;
+}
+.contenth .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    position: relative;
+}
+.contenth ul h3{
+    color: black;
+}
+.choosen{
+    color: rgb(0, 0, 0);
+}
+.cn:hover{
+    background-color: rgb(255, 255, 255);
+}
+.contenth span{
+    color: orange;
+    font-size: 60px;
+}
+.good {
+    width: 400px;
+    height: 70px;
+}
+.good ul{
+    display: list-item;
+    align-items: left;
+}
+.good ul li{
+    list-style: none;
+    margin-top: 27px;
+    font-size: 14px;
+    text-indent: 5px;
+}
+.good ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+.good ul h3{
+    color: rgb(19, 13, 1);
+    text-align: left;
+    padding: 30px;
+}
+.end{
+    width: 60px;
+    height: 1720px;
+    margin-left: 0px;
+    background-color: rgb(255, 254, 253);
+    margin-top: -100px;
+}
+.good ul li .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-left: -50px;
+}
+.good ul li .cn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+    text-align: center;
+    position: relative;
+}
+img{
+    width: 250px;
+    height: 200px;
+
+}
